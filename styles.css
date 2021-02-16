@@ -1,0 +1,149 @@
+body{
+    background-color: #ebebeb;
+    margin: 0;
+    padding: 0;
+    font-family: Calibri, monospace;
+}
+h1{
+    margin: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.header-section-mobile{
+    display: none;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background: #373c3f;
+}
+.header_section{
+    display: flex;
+    align-items: center;
+}
+.header_item{
+    padding: 20px 15px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.banner{
+    display: flex;
+    background: linear-gradient(to bottom right, #1cd1e7, #078aa4);
+
+}
+.banner-сontent{
+    margin: 150px;
+}
+.banner-сontent h1{
+    font-size: 60px;
+    color: white;
+    padding-bottom: 45px;
+}
+
+.banner-сontent a{
+    font-size: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+i{
+    color: white;
+}
+.robin-hood{
+    display: flex;
+    height: 200px;
+    background: #27212c;
+
+}
+
+.r-section-1{
+    flex: 3;
+    text-align: center;
+
+}
+.r-section-1 h1{
+    padding: 2.5em 0;
+    color: white;
+}
+
+.r-section-2{
+    flex: 1;
+    background-color: #bc3183;
+    text-align: center;
+}
+.r-section-2 h2{
+
+    font-size: 72px;
+}
+
+.pictures{
+    display: flex;
+}
+.p-section-1 {
+    flex: 1;
+}
+
+.p-section-2{
+    flex: 1;
+}
+.p-section-3{
+    flex: 1;
+}
+.text-block{
+    padding: 30px 60px;
+}
+
+.text-block-content{
+    display: flex;
+    font-size: 20px;
+    line-height: 35px;
+}
+.text-block-title a{
+    font-size: 36px;
+    font-weight: bold;
+    color: #088ca5;
+}
+.column-1{
+    flex: 1;
+    padding-right: 60px;
+}
+.column-2{
+    flex: 1;
+}
+
+/*@media screen and (max-width: 640px){*/
+/*    body{*/
+/*        background-color: #ebebeb;*/
+/*        margin: 0;*/
+/*        padding: 0;*/
+/*        font-family: Calibri, monospace;*/
+/*    }*/
+/*    h1{*/
+/*        margin: 0;*/
+/*    }*/
+/*    .header_section{*/
+/*        display: none;*/
+/*    }*/
+/*    .header-section-mobile{*/
+/*        display: flex;*/
+/*        justify-content: space-between;*/
+/*        width: 100%;*/
+/*        align-items: center;*/
+/*        padding-bottom: 15px;*/
+/*    }*/
+/*    .Logo{*/
+/*        color: white;*/
+
+/*    }*/
+/*    .menu-icon{*/
+/*        font-size: 24px;*/
+
+/*    }*/
+
+
+/*}*/
